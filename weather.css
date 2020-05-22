@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 40%;
+}
+.jumbotron{
+    margin-top: 50px;
+    background: #262626;
+    color: rgb(168, 189, 207);
+}
+.bodyright{
+    text-align: center;
+}
+.mdtop{
+    text-align: center;
+}
+.ditail{
+    padding: 20px;
+    font-size: 30px;
+    display: inline-block;
+}
+
+.mdmiddle{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+.weeklist{
+    padding: 20px;
+}
+.weekitem{
+    display: inline-block;
+    margin: 10px;
+}
+.searchinput{
+    height: 50px;
+    margin-right: 20px;
+}
+.searchbtn{
+    height: 50px;
+    width: 80px;
+}
+

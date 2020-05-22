@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+</head>
+<link rel="stylesheet" href="bootstrap.css">
+<link rel="stylesheet" href="weather.css">
+
+<body>
+
+    <div class="container">
+        <div class="jumbotron">
+            <div class="meida">
+                <div class="media-left bodyleft">
+                    <h2 class="dayname" id="dayname">周一</h2>
+                    <p class="day" id="day"></p>
+                    <h3 class="locationname" id="locationname"></h3>
+                    <h1 class="weathertemp" id="weathertemp"></h1>
+                    <p class="weatherdesc" id="weatherdesc"></p>
+                </div>
+
+                <div class="media-body bodyright">
+
+                    <div class="mdtop">
+                        <div class="ditail">
+                            <div class="dleft">风向</div>
+                            <div class="dright" id="wind_dir"></div>
+                        </div>
+                        <div class="ditail">
+                            <div class="dleft">降水量</div>
+                            <div class="dright" id="pcpn"></div>
+                        </div>
+                        <div class="ditail">
+                            <div class="dleft">能见度</div>
+                            <div class="dright" id="vis"></div>
+                        </div>
+                    </div>
+
+                    <div class="mdmiddle">
+                        <div class="weeklist">
+                            <div class="weekitem">
+                                <span class="dayname">明天</span>
+                                <div class="daytemp" id="sectmp"></div>
+                            </div>
+                            <div class="weekitem">
+                                <span class="dayname">后天</span>
+                                <div class="daytemp" id="thirdtmp"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="mdbottom">
+                        <form class="navbar-form">
+                            <div class="form-group">
+                                <input type="text" id="textcity1" class="form-control searchinput" placeholder="input location">
+                            </div>
+                            <button type="submit" id="location-btn" class="btn btn-default searchbtn">search</button>
+                        </form>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="weatherdemo.js"></script>
+    <script type="text/javascript" src="weather.js"></script>
+    <script type="text/javascript" src="bootstrap.min.js"></script>
+</body>
+</html>
